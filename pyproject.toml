@@ -1,0 +1,36 @@
+[project]
+name = "odw"
+version = "2026.1"
+description = "Package containing the tutorials and challenges for the Gravitational Waves Open Data Workshop"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "astropy==7.0.1",
+    "bilby==2.6.0",
+    "codespell==2.4.2",
+    "corner==2.2.3",
+    "cryptography==43.0.0",
+    "datasets==3.6.0",
+    "dynesty==2.1.5",
+    "gwosc==0.8.1",
+    "gwpopulation==0.10.0",
+    "gwpy==3.0.14",
+    "h5py==3.13.0",
+    "jupyter==1.1.1",
+    "lalsuite==7.26",
+    "ligo-skymap==2.4.0",
+    "matplotlib==3.10.8",
+    "nestle==0.2.0",
+    "numpy==1.26.4",
+    "pandas==2.3.3",
+    "pesummary==1.6.2",
+    "pip==26.0.1",
+    "pycbc==2.10.0",
+    "pygcn==1.0.2",
+    "pyhough==0.0.10",
+    "scipy==1.13.1",
+]
+
+# Necessary else setuptools is confused about the structure of the "package"
+[tool.setuptools]
+py-modules = []
