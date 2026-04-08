@@ -22,6 +22,8 @@ pesummary==1.6.1
 gwpopulation==0.10.0
 nestle==0.2.0
 pyhough==0.0.10
+# For compatibility with Colab
+cryptography==43.0.0
+datasets==3.6.0
 # Development dependencies
 codespell==2.4.2
-cryptography==43.0.0
