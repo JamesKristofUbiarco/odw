@@ -1,36 +1,11 @@
 # Hands-on Session Program
 
-## Day 1 hands-on session
+This folder contains the core tutorials of the ODW. Have look at the content inside.
 
-[Day 1 tutorials](./Day_1)
+If you follow those tutorials outside of the main event or a study hub, here are some indication on the pace of the tutorials:
+- Day 1 should cover tutorials in `01_Accessing_Open_Data` and `02_Generating_Waveforms`.
+  You should also start the tutorials in `03_Signal_Processing`.
+- Day 2 should focus on tutorials in `04_Searches`.
+- Day 3 should focus on tutorials in `05_Parameter_Estimation` and then start the challenge.
 
-### Topics:
-
-* Discover Gravitational Wave Open Data
-* Introduction to GWpy: the TimeSeries class. Plotting and simple data manipulation
-* Spectral analysis, FFTs, PSDs, and time-frequency representation of the signals. The $Q$-transform
-* Working with segments lists and Timelines
-* Plot spectrograms to identify glitches, signals, and hardware injections
-* GW signals from Compact Binary Coalescences (CBCs)
-
-## Day 2 hands-on session
-
-[Day 2 tutorials](./Day_2)
-
-### Topics:
-
-* Matched filtering to identify compact object mergers
-* Working with compact object merger parameters and waveforms
- 
-## Day 3 hands-on session
-
-[Day 3 tutorials](./Day_3)
-
-### Topics:
-
-* Parameter Estimation with Bilby
-* Skymaps
-
-## Data Challenge
-
-[Challenge](./Challenge/)
+Tutorials in `04_Searches` and `05_Parameter_Estimation` are more computationally intensive.
