@@ -98,7 +98,7 @@ This guide will walk you through the configuration of this environment (named `o
 
 🟡 Intermediate (Some software installation; Will not work on Windows PC)
 
-Alternatively, you may also install the required dependency with `pip`. We highly recommend to use a [virtual environment](https://docs.python.org/3/library/venv.html) for this:
+Alternatively, you may also install the required dependencies with `pip`. We highly recommend to use a [virtual environment](https://docs.python.org/3/library/venv.html) for this:
 
 1. Clone the workshop git repo
 
@@ -116,15 +116,21 @@ Alternatively, you may also install the required dependency with `pip`. We highl
 
    `source env/bin/activate`
 
-5. Install the dependencies
+5. Export required build flags
 
-   `pip install .`
+   `export CFLAGS="-Wno-int-conversion"`
 
-6. Start the Jupyter notebook server
+6. Install the dependencies
+
+   `pip install -r requirements.txt`
+
+7. Start the Jupyter notebook server
 
    `jupyter notebook`
 
-7. If you return later, do not forget to reactivate the environment before running `jupyter notebook` (step 4).
+8. If you return later, do not forget to reactivate the environment before running `jupyter notebook` (step 4).
+
+Note: the above process has been tested with Python 3.12. We do not guarantee that it will work on other Python versions.
 
 Note: this repository contains a `pyproject.toml` file, and should thus be compatible with other common python package managers (hatch, poetry, uv...). This is however untested; in case of doubt, we advise users to follow the instructions above.
 
